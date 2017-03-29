@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,900|Crimson+Text" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>SoundCloud Jukebox</title>
+  </head>
+  <body>
+
+    <div id="jukebox">
+
+      <audio id="audio">
+        <source id="addAudio" src="" type="audio/mp3"></source>
+      </audio>
+
+      <h1><a id="track" href="#" target="_blank"></a></h1>
+
+      <div class="info">
+        <p id="info"></p>
+      </div>
+
+    </div>
+
+
+
+      <div class="extraInfo">
+
+        <img id="artwork" src="" alt="Album Art">
+
+        <div id="musicCtrls">
+
+          <i id="playBtn" class="fa fa-play-circle-o" aria-hidden="true"></i>
+
+          <i id="pauseBtn" class="fa fa-pause-circle-o" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="gen">
+          <p id="gen"></p>
+        </div>
+
+        <div class="user">
+          <p id="user">Uploaded by: <a id="userPg" href="#" target="_blank"></a></p>
+        </div>
+
+        <div class="rel">
+          <p id="rel"></p>
+        </div>
+
+      </div>
+
+
+
+      <script type="text/javascript" src="script.js"></script>
+      <script src="https://use.fontawesome.com/69618746a9.js"></script>
+
+  </body>
+</html>
